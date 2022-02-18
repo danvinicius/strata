@@ -1,0 +1,191 @@
+body {
+  font-family: Montserrat, sans-serif;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Montserrat-Bold, sans-serif;
+}
+
+#title {
+  background-color: #ff4c68;
+}
+
+.container-fluid {
+  padding: 3% 20% 7% 15%;
+}
+
+.navbar {
+  padding: 0 0 4.5rem
+}
+
+.navbar-brand {
+  font-family: Ubuntu, sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+
+}
+
+.nav-item a {
+  font-family: Montserrat-light, sans-serif;
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+.mainTitle {
+  font-family: Montserrat-Black, sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bolder;
+}
+
+.mainImg {
+  width: 20%;
+  transform: rotate(25deg) translateY(-40px);
+  position: absolute;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+}
+
+.feature-box {
+  text-align: center;
+}
+
+#features h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+#features p {
+  font-family: Montserrat-light, sans-serif;
+  font-size: 1.3rem;
+  color: #8f8f8f
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bolder;
+}
+
+.testimonials-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 15px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-text {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.card h3 {
+  font-weight: bold;
+}
+
+.card h2 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+#cta {
+  font-family: Montserrat, sans-serif;
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+  color: #fff;
+}
+
+#cta .btn {
+  margin-top: 3%;
+}
+
+#footer {
+  background-color: #fff;
+  height: 200px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+#footer a {
+  text-decoration: none;
+  margin: 10px;
+  color: #333;
+}
+
+#footer p {
+  color: #333;
+  margin-bottom: 50px;
+  font-family: Montserrat-light, sans-serif;
+}
+
+@media (max-width: 1028px) {
+#title {
+  text-align: center;
+}
+
+#title .btn {
+  margin-top: 10%
+}
+
+  .mainImg {
+    position: static;
+    transform: rotate(0);
+    padding: 15%;
+    width: 90%;
+  }
+
+  .container-fluid {
+    padding-right: 10%
+  }
+}
